@@ -45,6 +45,7 @@ const App = () => {
                             // Componente que vou mostrar nessa tela
                             component={ScarletScreen}
                             title="Scarlet"
+                            initial
                         />
                         <Scene
                             key="gray"
@@ -58,6 +59,7 @@ const App = () => {
                             key="blue"
                             component={BlueScreen}
                             title="Blue"
+                            initial
                         />
                         <Scene
                             key="maize"
@@ -71,6 +73,7 @@ const App = () => {
                             key="gold"
                             component={GoldScreen}
                             title="Gold"
+                            initial
                         />
                         <Scene
                             key="black"
