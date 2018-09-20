@@ -1,4 +1,4 @@
-// app/GrayScreen.js
+// app/MaizeScreen.js
 
 import React, {Component} from 'react';
 import {
@@ -9,12 +9,12 @@ import {
 
 import {Actions} from "react-native-router-flux";
 
-const GrayScreen = () => {
+const MaizeScreen = () => {
     return (
         <View style={styles.container}>
             <Text style={styles.welcome}
-                  onPress={() => Actions.blue()}>
-                Gray Screen
+                  onPress={() => Actions.gold()}>
+                Scarlet Screen
             </Text>
         </View>
     );
@@ -35,4 +35,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default GrayScreen;
+export default MaizeScreen;

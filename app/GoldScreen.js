@@ -1,4 +1,4 @@
-// app/GrayScreen.js
+// app/GoldScreen.js
 
 import React, {Component} from 'react';
 import {
@@ -9,12 +9,12 @@ import {
 
 import {Actions} from "react-native-router-flux";
 
-const GrayScreen = () => {
+const GoldScreen = () => {
     return (
         <View style={styles.container}>
             <Text style={styles.welcome}
-                  onPress={() => Actions.blue()}>
-                Gray Screen
+                  onPress={() => Actions.black()}>
+                Scarlet Screen
             </Text>
         </View>
     );
@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: 'center',
         alignItems: 'center',
-        backgroundColor: '#666',
+        backgroundColor: '#666008',
     },
     welcome: {
         fontSize: 20,
@@ -35,4 +35,4 @@ const styles = StyleSheet.create({
     },
 });
 
-export default GrayScreen;
+export default GoldScreen;
