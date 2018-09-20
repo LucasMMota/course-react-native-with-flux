@@ -15,9 +15,13 @@ const ScarletScreen = () => {
             <Text style={styles.welcome}
 
                 // Aqui eu faço o roteamento
-                  onPress={() => Actions.gray()}
-            >
+                  onPress={() => Actions.gray()}>
                 Scarlet Screen
+            </Text>
+
+            <Text style={styles.welcome}
+                  onPress={() => Actions.modal()}>
+                Modal Screen
             </Text>
         </View>
     );
